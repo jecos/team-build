@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.jecos"
+		module="user$sources_javadoc_2.11"
+		revision="0.1.0"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20151028203522"/>
+	<dependencies>
+		<module organisation="com.rbmhtechnology" name="eventuate_2.11">
+			<revision name="0.3" status="release" pubdate="20151026195555" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<metadata-artifact status="no" details="" size="4261" time="0" location="/Users/jecos/.ivy2/cache/com.rbmhtechnology/eventuate_2.11/ivy-0.3.xml" searched="false" origin-is-local="false" origin-location="https://dl.bintray.com/rbmhtechnology/maven/com/rbmhtechnology/eventuate_2.11/0.3/eventuate_2.11-0.3.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.3" rev-constraint-default="0.3" rev-constraint-dynamic="0.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="eventuate_2.11" type="jar" ext="jar" status="no" details="" size="1125389" time="0" location="/Users/jecos/.ivy2/cache/com.rbmhtechnology/eventuate_2.11/jars/eventuate_2.11-0.3.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/rbmhtechnology/maven/com/rbmhtechnology/eventuate_2.11/0.3/eventuate_2.11-0.3.jar"/>
+					</artifact>
+					<artifact name="eventuate_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="135113" time="0" location="/Users/jecos/.ivy2/cache/com.rbmhtechnology/eventuate_2.11/srcs/eventuate_2.11-0.3-sources.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/rbmhtechnology/maven/com/rbmhtechnology/eventuate_2.11/0.3/eventuate_2.11-0.3-sources.jar"/>
+					</artifact>
+					<artifact name="eventuate_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="769442" time="0" location="/Users/jecos/.ivy2/cache/com.rbmhtechnology/eventuate_2.11/docs/eventuate_2.11-0.3-javadoc.jar">
+						<origin-location is-local="false" location="https://dl.bintray.com/rbmhtechnology/maven/com/rbmhtechnology/eventuate_2.11/0.3/eventuate_2.11-0.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaz" name="scalaz-core_2.11">
+			<revision name="7.1.0" status="release" pubdate="20140801121551" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scalaz.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="22">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2845" time="0" location="/Users/jecos/.ivy2/cache/org.scalaz/scalaz-core_2.11/ivy-7.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.1.0/scalaz-core_2.11-7.1.0.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="7.1.0" rev-constraint-default="7.1.0" rev-constraint-dynamic="7.1.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scalaz-core_2.11" type="jar" ext="jar" status="no" details="" size="9124238" time="0" location="/Users/jecos/.ivy2/cache/org.scalaz/scalaz-core_2.11/jars/scalaz-core_2.11-7.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.1.0/scalaz-core_2.11-7.1.0.jar"/>
+					</artifact>
+					<artifact name="scalaz-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="334686" time="0" location="/Users/jecos/.ivy2/cache/org.scalaz/scalaz-core_2.11/srcs/scalaz-core_2.11-7.1.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.1.0/scalaz-core_2.11-7.1.0-sources.jar"/>
+					</artifact>
+					<artifact name="scalaz-core_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="6001834" time="0" location="/Users/jecos/.ivy2/cache/org.scalaz/scalaz-core_2.11/docs/scalaz-core_2.11-7.1.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.11/7.1.0/scalaz-core_2.11-7.1.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.2" status="release" pubdate="20140520041040" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="24">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3011" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="109171" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1225359" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/docs/scala-xml_2.11-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-xml_2.11" type="jar" ext="jar" status="no" details="" size="648678" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/jars/scala-xml_2.11-1.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.2" status="release" pubdate="20140723024535" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="23">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2803" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="42219" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="jar" ext="jar" status="no" details="" size="416065" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/jars/scala-parser-combinators_2.11-1.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2.jar"/>
+					</artifact>
+					<artifact name="scala-parser-combinators_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="694259" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/docs/scala-parser-combinators_2.11-1.0.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.2/scala-parser-combinators_2.11-1.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.fusesource.leveldbjni" name="leveldbjni-all">
+			<revision name="1.8" status="release" pubdate="20131017091826" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="21">
+				<metadata-artifact status="no" details="" size="4416" time="0" location="/Users/jecos/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni-all/ivy-1.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.8" rev-constraint-default="1.8" rev-constraint-dynamic="1.8" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="leveldbjni-all" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="70225" time="0" location="/Users/jecos/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni-all/srcs/leveldbjni-all-1.8-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8-sources.jar"/>
+					</artifact>
+					<artifact name="leveldbjni-all" type="jar" ext="jar" status="no" details="" size="1045744" time="0" location="/Users/jecos/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni-all/jars/leveldbjni-all-1.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8.jar"/>
+					</artifact>
+					<artifact name="leveldbjni-all" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="34086" time="0" location="/Users/jecos/.ivy2/cache/org.fusesource.leveldbjni/leveldbjni-all/docs/leveldbjni-all-1.8-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/fusesource/leveldbjni/leveldbjni-all/1.8/leveldbjni-all-1.8-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.4" status="release" pubdate="20120612182206" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="20">
+				<metadata-artifact status="no" details="" size="8457" time="0" location="/Users/jecos/.ivy2/cache/commons-io/commons-io/ivy-2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="commons-io" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="724124" time="0" location="/Users/jecos/.ivy2/cache/commons-io/commons-io/docs/commons-io-2.4-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="246635" time="0" location="/Users/jecos/.ivy2/cache/commons-io/commons-io/srcs/commons-io-2.4-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+					</artifact>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="185140" time="0" location="/Users/jecos/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/commons-io/commons-io/2.4/commons-io-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-remote_2.11">
+			<revision name="2.4.0-RC2" status="release" pubdate="20150904100934" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3846" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/ivy-2.4.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.0-RC2/akka-remote_2.11-2.4.0-RC2.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.0-RC2" rev-constraint-default="2.4.0-RC2" rev-constraint-dynamic="2.4.0-RC2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="akka-remote_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1412510" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/docs/akka-remote_2.11-2.4.0-RC2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.0-RC2/akka-remote_2.11-2.4.0-RC2-javadoc.jar"/>
+					</artifact>
+					<artifact name="akka-remote_2.11" type="jar" ext="jar" status="no" details="" size="1351375" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/jars/akka-remote_2.11-2.4.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.0-RC2/akka-remote_2.11-2.4.0-RC2.jar"/>
+					</artifact>
+					<artifact name="akka-remote_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="145814" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-remote_2.11/srcs/akka-remote_2.11-2.4.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.11/2.4.0-RC2/akka-remote_2.11-2.4.0-RC2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.uncommons.maths" name="uncommons-maths">
+			<revision name="1.2.2a" status="release" pubdate="20110408095605" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maths.uncommons.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="19">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2750" time="0" location="/Users/jecos/.ivy2/cache/org.uncommons.maths/uncommons-maths/ivy-1.2.2a.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.2.2a" rev-constraint-default="1.2.2a" rev-constraint-dynamic="1.2.2a" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="uncommons-maths" type="jar" ext="jar" status="no" details="" size="49019" time="0" location="/Users/jecos/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a.jar"/>
+					</artifact>
+					<artifact name="uncommons-maths" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="61093" time="0" location="/Users/jecos/.ivy2/cache/org.uncommons.maths/uncommons-maths/srcs/uncommons-maths-1.2.2a-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-sources.jar"/>
+					</artifact>
+					<artifact name="uncommons-maths" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="158263" time="0" location="/Users/jecos/.ivy2/cache/org.uncommons.maths/uncommons-maths/docs/uncommons-maths-1.2.2a-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/uncommons/maths/uncommons-maths/1.2.2a/uncommons-maths-1.2.2a-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.10.3.Final" status="release" pubdate="20150508113154" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="7071" time="0" location="/Users/jecos/.ivy2/cache/io.netty/netty/ivy-3.10.3.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.10.3.Final" rev-constraint-default="3.10.3.Final" rev-constraint-dynamic="3.10.3.Final" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="netty" type="jar" ext="jar" status="no" details="" size="1324704" time="0" location="/Users/jecos/.ivy2/cache/io.netty/netty/jars/netty-3.10.3.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final.jar"/>
+					</artifact>
+					<artifact name="netty" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3373805" time="0" location="/Users/jecos/.ivy2/cache/io.netty/netty/docs/netty-3.10.3.Final-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final-javadoc.jar"/>
+					</artifact>
+					<artifact name="netty" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1149046" time="0" location="/Users/jecos/.ivy2/cache/io.netty/netty/srcs/netty-3.10.3.Final-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.10.3.Final/netty-3.10.3.Final-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-protobuf_2.11">
+			<revision name="2.4.0-RC2" status="release" pubdate="20150904100820" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3001" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/ivy-2.4.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.0-RC2/akka-protobuf_2.11-2.4.0-RC2.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.0-RC2" rev-constraint-default="2.4.0-RC2" rev-constraint-dynamic="2.4.0-RC2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="akka-protobuf_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="829173" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/docs/akka-protobuf_2.11-2.4.0-RC2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.0-RC2/akka-protobuf_2.11-2.4.0-RC2-javadoc.jar"/>
+					</artifact>
+					<artifact name="akka-protobuf_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="275265" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/srcs/akka-protobuf_2.11-2.4.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.0-RC2/akka-protobuf_2.11-2.4.0-RC2-sources.jar"/>
+					</artifact>
+					<artifact name="akka-protobuf_2.11" type="jar" ext="jar" status="no" details="" size="484460" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.11/jars/akka-protobuf_2.11-2.4.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.11/2.4.0-RC2/akka-protobuf_2.11-2.4.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjdk.jmh" name="jmh-generator-bytecode">
+			<revision name="1.10.3" status="release" pubdate="20150717124120" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<metadata-artifact status="no" details="" size="3450" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-bytecode/ivy-1.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-bytecode/1.10.3/jmh-generator-bytecode-1.10.3.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.10.3" rev-constraint-default="1.10.3" rev-constraint-dynamic="1.10.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jmh-generator-bytecode" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="24968" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-bytecode/docs/jmh-generator-bytecode-1.10.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-bytecode/1.10.3/jmh-generator-bytecode-1.10.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="jmh-generator-bytecode" type="jar" ext="jar" status="no" details="" size="18566" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-bytecode/jars/jmh-generator-bytecode-1.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-bytecode/1.10.3/jmh-generator-bytecode-1.10.3.jar"/>
+					</artifact>
+					<artifact name="jmh-generator-bytecode" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="15406" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-bytecode/srcs/jmh-generator-bytecode-1.10.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-bytecode/1.10.3/jmh-generator-bytecode-1.10.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjdk.jmh" name="jmh-generator-asm">
+			<revision name="1.10.3" status="release" pubdate="20150717124023" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<metadata-artifact status="no" details="" size="3377" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-asm/ivy-1.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-asm/1.10.3/jmh-generator-asm-1.10.3.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.10.3" rev-constraint-default="1.10.3" rev-constraint-dynamic="1.10.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jmh-generator-asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="25762" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-asm/srcs/jmh-generator-asm-1.10.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-asm/1.10.3/jmh-generator-asm-1.10.3-sources.jar"/>
+					</artifact>
+					<artifact name="jmh-generator-asm" type="jar" ext="jar" status="no" details="" size="31405" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-asm/jars/jmh-generator-asm-1.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-asm/1.10.3/jmh-generator-asm-1.10.3.jar"/>
+					</artifact>
+					<artifact name="jmh-generator-asm" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="24635" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-asm/docs/jmh-generator-asm-1.10.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-asm/1.10.3/jmh-generator-asm-1.10.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="5.0.3" status="release" pubdate="20140524043012" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<metadata-artifact status="no" details="" size="3758" time="0" location="/Users/jecos/.ivy2/cache/org.ow2.asm/asm/ivy-5.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="5.0.3" rev-constraint-default="5.0.3" rev-constraint-dynamic="5.0.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="asm" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1702446" time="0" location="/Users/jecos/.ivy2/cache/org.ow2.asm/asm/docs/asm-5.0.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="asm" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1038486" time="0" location="/Users/jecos/.ivy2/cache/org.ow2.asm/asm/srcs/asm-5.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3-sources.jar"/>
+					</artifact>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="53231" time="0" location="/Users/jecos/.ivy2/cache/org.ow2.asm/asm/jars/asm-5.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/5.0.3/asm-5.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjdk.jmh" name="jmh-generator-reflection">
+			<revision name="1.10.3" status="release" pubdate="20150717124018" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<metadata-artifact status="no" details="" size="3084" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-reflection/ivy-1.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-reflection/1.10.3/jmh-generator-reflection-1.10.3.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.10.3" rev-constraint-default="1.10.3" rev-constraint-dynamic="1.10.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jmh-generator-reflection" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21560" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-reflection/srcs/jmh-generator-reflection-1.10.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-reflection/1.10.3/jmh-generator-reflection-1.10.3-sources.jar"/>
+					</artifact>
+					<artifact name="jmh-generator-reflection" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="24757" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-reflection/docs/jmh-generator-reflection-1.10.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-reflection/1.10.3/jmh-generator-reflection-1.10.3-javadoc.jar"/>
+					</artifact>
+					<artifact name="jmh-generator-reflection" type="jar" ext="jar" status="no" details="" size="24314" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-generator-reflection/jars/jmh-generator-reflection-1.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-generator-reflection/1.10.3/jmh-generator-reflection-1.10.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.openjdk.jmh" name="jmh-core">
+			<revision name="1.10.3" status="release" pubdate="20150717123533" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="11">
+				<metadata-artifact status="no" details="" size="3653" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-core/ivy-1.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-core/1.10.3/jmh-core-1.10.3.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.10.3" rev-constraint-default="1.10.3" rev-constraint-dynamic="1.10.3" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jmh-core" type="jar" ext="jar" status="no" details="" size="456806" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-core/jars/jmh-core-1.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-core/1.10.3/jmh-core-1.10.3.jar"/>
+					</artifact>
+					<artifact name="jmh-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="353863" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-core/srcs/jmh-core-1.10.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-core/1.10.3/jmh-core-1.10.3-sources.jar"/>
+					</artifact>
+					<artifact name="jmh-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="881138" time="0" location="/Users/jecos/.ivy2/cache/org.openjdk.jmh/jmh-core/docs/jmh-core-1.10.3-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/openjdk/jmh/jmh-core/1.10.3/jmh-core-1.10.3-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.2" status="release" pubdate="20130402153128" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="13">
+				<metadata-artifact status="no" details="" size="9435" time="0" location="/Users/jecos/.ivy2/cache/org.apache.commons/commons-math3/ivy-3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.2" rev-constraint-default="3.2" rev-constraint-dynamic="3.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="1692782" time="0" location="/Users/jecos/.ivy2/cache/org.apache.commons/commons-math3/jars/commons-math3-3.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar"/>
+					</artifact>
+					<artifact name="commons-math3" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2005074" time="0" location="/Users/jecos/.ivy2/cache/org.apache.commons/commons-math3/srcs/commons-math3-3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-sources.jar"/>
+					</artifact>
+					<artifact name="commons-math3" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5393423" time="0" location="/Users/jecos/.ivy2/cache/org.apache.commons/commons-math3/docs/commons-math3-3.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.2/commons-math3-3.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.jopt-simple" name="jopt-simple">
+			<revision name="4.6" status="release" pubdate="20140105204903" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://pholser.github.com/jopt-simple" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="12">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3837" time="0" location="/Users/jecos/.ivy2/cache/net.sf.jopt-simple/jopt-simple/ivy-4.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.6" rev-constraint-default="4.6" rev-constraint-dynamic="4.6" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="jopt-simple" type="jar" ext="jar" status="no" details="" size="62477" time="0" location="/Users/jecos/.ivy2/cache/net.sf.jopt-simple/jopt-simple/jars/jopt-simple-4.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar"/>
+					</artifact>
+					<artifact name="jopt-simple" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="170859" time="0" location="/Users/jecos/.ivy2/cache/net.sf.jopt-simple/jopt-simple/docs/jopt-simple-4.6-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6-javadoc.jar"/>
+					</artifact>
+					<artifact name="jopt-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="74419" time="0" location="/Users/jecos/.ivy2/cache/net.sf.jopt-simple/jopt-simple/srcs/jopt-simple-4.6-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.11">
+			<revision name="2.4.0-RC2" status="release" pubdate="20150904100816" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/ivy-2.4.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.0-RC2/akka-actor_2.11-2.4.0-RC2.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.4.0-RC2" rev-constraint-default="2.4.0-RC2" rev-constraint-dynamic="2.4.0-RC2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="akka-actor_2.11" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="3584051" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/docs/akka-actor_2.11-2.4.0-RC2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.0-RC2/akka-actor_2.11-2.4.0-RC2-javadoc.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="363239" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.4.0-RC2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.0-RC2/akka-actor_2.11-2.4.0-RC2-sources.jar"/>
+					</artifact>
+					<artifact name="akka-actor_2.11" type="jar" ext="jar" status="no" details="" size="2976143" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.11/2.4.0-RC2/akka-actor_2.11-2.4.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.0" status="release" pubdate="20150508114611" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typesafehub/config" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2749" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe/config/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="config" type="jar" ext="jar" status="no" details="" size="277782" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe/config/jars/config-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0.jar"/>
+					</artifact>
+					<artifact name="config" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="167084" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe/config/srcs/config-1.3.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-sources.jar"/>
+					</artifact>
+					<artifact name="config" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="442657" time="0" location="/Users/jecos/.ivy2/cache/com.typesafe/config/docs/config-1.3.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.0/config-1.3.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130307191811" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3013" time="0" location="/Users/jecos/.ivy2/cache/com.google.protobuf/protobuf-java/ivy-2.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1212478" time="0" location="/Users/jecos/.ivy2/cache/com.google.protobuf/protobuf-java/docs/protobuf-java-2.5.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-javadoc.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="276990" time="0" location="/Users/jecos/.ivy2/cache/com.google.protobuf/protobuf-java/srcs/protobuf-java-2.5.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0-sources.jar"/>
+					</artifact>
+					<artifact name="protobuf-java" type="jar" ext="jar" status="no" details="" size="533455" time="0" location="/Users/jecos/.ivy2/cache/com.google.protobuf/protobuf-java/jars/protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="16.0" status="release" pubdate="20140117164448" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<metadata-artifact status="no" details="" size="5931" time="0" location="/Users/jecos/.ivy2/cache/com.google.guava/guava/ivy-16.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0/guava-16.0.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="16.0" rev-constraint-default="16.0" rev-constraint-dynamic="16.0" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="guava" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1259298" time="0" location="/Users/jecos/.ivy2/cache/com.google.guava/guava/srcs/guava-16.0-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0/guava-16.0-sources.jar"/>
+					</artifact>
+					<artifact name="guava" type="jar" ext="jar" status="no" details="" size="2225441" time="0" location="/Users/jecos/.ivy2/cache/com.google.guava/guava/jars/guava-16.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0/guava-16.0.jar"/>
+					</artifact>
+					<artifact name="guava" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="5161686" time="0" location="/Users/jecos/.ivy2/cache/com.google.guava/guava/docs/guava-16.0-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/16.0/guava-16.0-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.datastax.cassandra" name="cassandra-driver-core">
+			<revision name="2.1.5" status="release" pubdate="20150316101216" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/datastax/java-driver" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5250" time="0" location="/Users/jecos/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/ivy-2.1.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.1.5" rev-constraint-default="2.1.5" rev-constraint-dynamic="2.1.5" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="cassandra-driver-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="413093" time="0" location="/Users/jecos/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/srcs/cassandra-driver-core-2.1.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5-sources.jar"/>
+					</artifact>
+					<artifact name="cassandra-driver-core" type="jar" ext="jar" status="no" details="" size="726778" time="0" location="/Users/jecos/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/jars/cassandra-driver-core-2.1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5.jar"/>
+					</artifact>
+					<artifact name="cassandra-driver-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="1196784" time="0" location="/Users/jecos/.ivy2/cache/com.datastax.cassandra/cassandra-driver-core/docs/cassandra-driver-core-2.1.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/datastax/cassandra/cassandra-driver-core/2.1.5/cassandra-driver-core-2.1.5-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.codahale.metrics" name="metrics-core">
+			<revision name="3.0.2" status="release" pubdate="20140216193139" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<metadata-artifact status="no" details="" size="4636" time="0" location="/Users/jecos/.ivy2/cache/com.codahale.metrics/metrics-core/ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="metrics-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43567" time="0" location="/Users/jecos/.ivy2/cache/com.codahale.metrics/metrics-core/srcs/metrics-core-3.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2-sources.jar"/>
+					</artifact>
+					<artifact name="metrics-core" type="jar" ext="jar" status="no" details="" size="85448" time="0" location="/Users/jecos/.ivy2/cache/com.codahale.metrics/metrics-core/jars/metrics-core-3.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2.jar"/>
+					</artifact>
+					<artifact name="metrics-core" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="258426" time="0" location="/Users/jecos/.ivy2/cache/com.codahale.metrics/metrics-core/docs/metrics-core-3.0.2-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/codahale/metrics/metrics-core/3.0.2/metrics-core-3.0.2-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20130325165215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<metadata-artifact status="no" details="" size="4469" time="0" location="/Users/jecos/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="0.1.0"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="47186" time="0" location="/Users/jecos/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.5-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-sources.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="/Users/jecos/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar">
+						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+					</artifact>
+					<artifact name="slf4j-api" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="183075" time="0" location="/Users/jecos/.ivy2/cache/org.slf4j/slf4j-api/docs/slf4j-api-1.7.5-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-javadoc.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.7" status="release" pubdate="20150622161702" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.pom"/>
+				<caller organisation="com.jecos" name="user$sources_javadoc_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.7" rev-constraint-default="2.11.7" rev-constraint-dynamic="2.11.7" callerrev="0.1.0" extra-info.apiURL="http://www.scala-lang.org/api/2.11.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="doc" ext="jar" extra-classifier="javadoc" status="no" details="" size="22812957" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang/scala-library/docs/scala-library-2.11.7-javadoc.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-javadoc.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="908307" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7-sources.jar"/>
+					</artifact>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5745606" time="0" location="/Users/jecos/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.7/scala-library-2.11.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

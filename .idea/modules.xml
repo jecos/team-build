@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/league.iml" filepath="$PROJECT_DIR$/.idea/modules/league.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/league-build.iml" filepath="$PROJECT_DIR$/.idea/modules/league-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/team-build.iml" filepath="$PROJECT_DIR$/.idea/modules/team-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/team-build-build.iml" filepath="$PROJECT_DIR$/.idea/modules/team-build-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user.iml" filepath="$PROJECT_DIR$/.idea/modules/user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-build.iml" filepath="$PROJECT_DIR$/.idea/modules/user-build.iml" />
+    </modules>
+  </component>
+</project>
